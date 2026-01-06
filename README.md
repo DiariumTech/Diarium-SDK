@@ -39,30 +39,3 @@ The on-chain programs are maintained separately and treated as immutable protoco
 The SDK is intended for server-side or controlled execution environments.
 
 ```ts
-import { DiariumClient } from "@diarium/sdk";
-
-const client = new DiariumClient(connection);
-
-
----
-
-## ✅ Kenapa ini “Midarium-style”
-- Tidak ada hype / marketing
-- Fokus ke **apa itu repo secara teknis**
-- Ada **Repository Structure**
-- SDK & on-chain dipisah secara konseptual
-- Tone tenang, infra-grade
-
----
-
-## ➡️ Next step (opsional)
-Kalau mau makin solid:
-1. Tambah `LICENSE` (MIT)
-2. Tambah `.env.example`
-3. Tambah folder `src/` walau masih kosong
-
-Kalau kamu mau:
-- disesuaikan **lebih DeFi / journal / execution-layer**
-- atau ingin **lebih pendek seperti repo core infra**
-
-tinggal bilang, aku refine langsung.
